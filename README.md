@@ -17,7 +17,7 @@ V případě jakýkolich otázek, či problémů: lukas.prochazka3@cts-tradeit.c
 
 Diagram entit a jejich vztahů se nachází v části [API](Api)
 
-Protože je úloha stylizována do tématiky cenných papírů, dávám slovníček některých pojmů které se zde používají:
+Protože je úloha stylizována do tématiky cenných papírů, dávám slovníček tří pojmů které se v zadání vyskytují:
 
 ### Směnka (an. Bill of Exchange)
 
