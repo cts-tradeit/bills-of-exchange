@@ -9,7 +9,7 @@ Jednotlivé problémy můžete řešit na libovolných úrovních aplikace (tam 
 
 Každá část obsahuje seznam bonusových úkolů, které nemusíte splnit. V případě, že se ucházíte čistě o FE nebo BE pozici, vypracujte pouze část [Klient](Client) nebo [API](Api).
 
-V případě, že máte vlastní GitHub, forkněte si tento repositář a vypracované zadání vraťte pull requeustem. V případě, že si nechcete tento repositář forknout pod svůj účet, obraťte se na HR a budou vám přidělena práva vytvořit si vlastní větev v tomto repositáři.
+V případě, že máte vlastní GitHub, forkněte si tento repositář a vypracované zadání vraťte pull requeustem. V případě, že si nechcete nebo nemůžete tento repositář forknout pod svůj účet, obraťte se na HR a budou vám přidělena práva vytvořit si vlastní větev v tomto repositáři.
 
 V případě jakýkolich otázek, či problémů: lukas.prochazka3@cts-tradeit.cz
 
