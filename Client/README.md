@@ -12,14 +12,14 @@ Navigace:
 Detail osoby:
 
 - Vypsat všechny směnky, které daná osoba vystavila
-- Vypsat všechny směnky, které daná osoba právě vlastní (tj. je první v řadu)
+- Vypsat všechny směnky, které daná osoba právě vlastní (tj. je navrchu řadu)
 - Proklik na detail směnky skrze danou směnku
 
 Detail směnky:
 
-- Zobrazit směnce jako takové (vystavitel, první vlastník a současný vlastník)
-- Zobrazit kompletní řad směnky (tj. všechny rubopisy jak jdou po sobě) **včetně jmen osob**
-- Proklik na detail soboy skrze zmíněnou osobu
+- Zobrazit kdo směnku vystsavil a kdo je aktuální vlastník
+- Zobrazit kompletní řad směnky (tj. kdo všechno směnku vlastnil na základě rubopisů) **včetně jmen osob**
+- Proklik na detail osoby skrze jméno osoby
 
 Aplikace by měl být schopná handlovat vyjímky vyhozené API serverem aniž by došlo k jejím pádu.
 
