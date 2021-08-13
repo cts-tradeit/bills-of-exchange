@@ -7,11 +7,9 @@ Vaším úkolem je dokončit každou z částí.
 
 Jednotlivé problémy můžete řešit na libovolných úrovních aplikace (tam kde uznáte za vhodné). Důležité je, aby řešení bylo funkční, či aby jeho některá část byla funkční. Můžete vyřešit čistě API nebo Klientskou část (**chcete-li řešit pouze klientskou část bez komunikace s API serverem, použijte vlastní placeholder data**).
 
-Každá část obsahuje seznam bonusových úkolů, které nemusíte splnit.
+Každá část obsahuje seznam bonusových úkolů, které nemusíte splnit. V případě, že se ucházíte čistě o FE nebo BE pozici, vypracujte pouze část [Klient](Client) nebo [API](Api).
 
-Pro vaše řešení si vytvořte vlastní větev se jménem ve formátu "datum pohovoru"/"vaše jméno" (pro pushování větví je nutné být kolaborátorem na repozitáři, po kontaktu s HR obdržíte na e-mail pozvánku).
-
-Pokud ještě nejste v kontaktu s HR a i tak chcete úlohu vypracovat, udělejte si na GitHubu fork repozitáře a řešení submitněte pull requestem.
+V případě, že máte vlastní GitHub, forkněte si tento repositář a vypracované zadání vraťte pull requeustem. V případě, že si nechcete tento repositář forknout pod svůj účet, obraťte se na HR a budou vám přidělena práva vytvořit si vlastní větev v tomto repositáři.
 
 V případě jakýkolich otázek, či problémů: lukas.prochazka3@cts-tradeit.cz
 
