@@ -29,8 +29,8 @@ Na grafickém zpracování nezáleží. Použijte svojí oblíbenou knihovnu, vl
 
 - Použít TypeScript
 - Použít React
-- Pokrýt kód unit testy
-- Zajistit aby při opuštění a návratu mohl uživatel pokračovat tam, kde skončil
+- Pár unit testů v Jestu nebo Mocha
+- Zajistit aby při opuštění stránky (zavření okna) a návratu mohl uživatel pokračovat tam, kde skončil (persist state)
 
 ## Co zde již je
 
