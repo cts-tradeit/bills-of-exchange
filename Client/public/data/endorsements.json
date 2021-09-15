@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "billId": 1,
+            "newBeneficiaryId": 6
+        },
+        {
+            "id": 2,
+            "billId": 1,
+            "newBeneficiaryId": 5,
+            "previousEndorsementId": 1
+        },
+        {
+            "id": 3,
+            "billId": 1,
+            "newBeneficiaryId": 4,
+            "previousEndorsementId": 2
+        },
+        {
+            "id": 4,
+            "billId": 1,
+            "newBeneficiaryId": 3,
+            "previousEndorsementId": 3
+        },
+        {
+            "id": 5,
+            "billId": 3,
+            "newBeneficiaryId": 6
+        },
+        {
+            "id": 6,
+            "billId": 4,
+            "newBeneficiaryId": 6
+        },
+        {
+            "id": 7,
+            "billId": 4,
+            "newBeneficiaryId": 3,
+            "previousEndorsementId": 6
+        }
+    ]
+}

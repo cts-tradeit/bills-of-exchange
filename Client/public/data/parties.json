@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Jan Novák"
+        },
+        {
+            "id": 2,
+            "name": "František Omáčka"
+        },
+        {
+            "id": 3,
+            "name": "Božena Němcová"
+        },
+        {
+            "id": 4,
+            "name": "Marie Antonieta"
+        },
+        {
+            "id": 5,
+            "name": "Pepa Zdepa"
+        },
+        {
+            "id": 6,
+            "name": "John Doe"
+        }
+    ]
+}

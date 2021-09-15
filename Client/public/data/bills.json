@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "drawerId": 2,
+            "beneficiaryId": 1,
+            "amount": 1000.0
+        },
+        {
+            "id": 2,
+            "drawerId": 6,
+            "beneficiaryId": 6,
+            "amount": 1100.0
+        },
+        {
+            "id": 3,
+            "drawerId": 3,
+            "beneficiaryId": 5,
+            "amount": 1200.0
+        },
+        {
+            "id": 4,
+            "drawerId": 4,
+            "beneficiaryId": 1,
+            "amount": 1300.0
+        },
+        {
+            "id": 5,
+            "drawerId": 2,
+            "beneficiaryId": 1,
+            "amount": 1400.0
+        },
+        {
+            "id": 6,
+            "drawerId": 2,
+            "beneficiaryId": 1,
+            "amount": 1500.0
+        },
+        {
+            "id": 7,
+            "drawerId": 1,
+            "beneficiaryId": 5,
+            "amount": 1600.0
+        },
+        {
+            "id": 8,
+            "drawerId": 5,
+            "beneficiaryId": 2,
+            "amount": 1700.0
+        }
+    ]
+}
