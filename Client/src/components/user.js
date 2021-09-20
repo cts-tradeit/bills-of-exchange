@@ -10,27 +10,30 @@ const useStyles = makeStyles((theme) => ({
   card: {
     marginTop: "10px",
   },
+  userName: {
+    paddingBottom: "10px",
+  },
 }));
-
-
 
 export default function User(props) {
   const classes = useStyles();
   return (
-    <Card  data-testid="user" className={classes.card} sx={{ minWidth: 275 }}>
+    <Card data-testid="user" className={classes.card} sx={{ minWidth: 275 }}>
       <CardContent>
-      {props.title ? 
-        <Typography variant="h5" component="div">
-        {props.title}
-        </Typography> : null}
+        {props.title ? (
+          <Typography variant="h5" component="div">
+            {props.title}
+          </Typography>
+        ) : null}
+
         <Typography variant="h6" component="div">
-          <AssignmentIndIcon color="primary" fontSize="large" /> {props.name}
+          <AssignmentIndIcon color="primary" fontSize="large" /> 
+           {props.name}
         </Typography>
-        
-          <Button to={"/user/" + props.id} variant="outlined" size="small">
-            User Detail
-          </Button>
-        
+
+        <Button href={"/user/" + props.id} variant="outlined" size="small">
+          User Detail
+        </Button>
       </CardContent>
     </Card>
   );

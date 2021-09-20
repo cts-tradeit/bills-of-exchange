@@ -47,7 +47,7 @@ export default function Bill(props) {
 
         
         
-          <Button size="small" to={"/bill/" + props.id} variant="outlined">
+          <Button size="small" href={"/bill/" + props.id} variant="outlined">
             Bill Detail
           </Button>
   
