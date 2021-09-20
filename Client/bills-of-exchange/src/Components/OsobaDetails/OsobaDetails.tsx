@@ -8,8 +8,8 @@ import { useHistory, useParams } from 'react-router';
 const columnsVlastni: GridColDef[] = [
     {
         field: 'id',
-        headerName: 'ID',
-        width: 80,
+        headerName: 'Bill ID',
+        width: 100,
         editable: false,
     },
 ];
@@ -17,8 +17,8 @@ const columnsVlastni: GridColDef[] = [
 const columnsVystavene: GridColDef[] = [
     {
         field: 'id',
-        headerName: 'ID',
-        width: 80,
+        headerName: 'Bill ID',
+        width: 100,
         editable: false,
     },
 ];
@@ -52,7 +52,7 @@ export const OsobaDetails: React.FC = () => {
     const smenkyVlastni = useSelector((state: State) => state.osobaDetailsReducer.beneficiarySmenky);
 
     return (
-        <div style={{ height: 450, width: '15%', margin: '5% 0 0 5%', cursor: 'pointer' }}>
+        <div style={{ height: 450, width: '12rem', margin: '5% 0 0 5%', cursor: 'pointer' }}>
             <h1>{osoba?.name}</h1>
             <h2>Drawer Bills</h2>
             <DataGrid

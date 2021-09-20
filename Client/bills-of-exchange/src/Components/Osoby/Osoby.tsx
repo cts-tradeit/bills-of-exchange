@@ -28,7 +28,7 @@ export const Osoby: React.FC = () => {
     const osoby = useSelector((state: State) => state.osobyReducer);
 
     return (
-        <div style={{ height: 450, width: '21%', margin: '5% 0 0 5%', cursor: 'pointer' }}>
+        <div style={{ height: 450, width: '18rem', margin: '5% 0 0 5%', cursor: 'pointer' }}>
             <h1>Parties</h1>
             <DataGrid
                 rows={osoby}
