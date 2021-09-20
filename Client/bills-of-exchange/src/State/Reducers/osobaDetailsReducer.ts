@@ -4,13 +4,13 @@ import { Smenka } from "./smenkyReducer";
 
 
 export interface OsobaDetails {
-    DrawerSmenky: Smenka[];
-    BeneficiarySmenky: Smenka[];
+    drawerSmenky: Smenka[];
+    beneficiarySmenky: Smenka[];
 }
 
 const initialState = {
-    DrawerSmenky: [],
-    BeneficiarySmenky: []
+    drawerSmenky: [],
+    beneficiarySmenky: []
 }
 
 const osobaDetailsReducer = (state: OsobaDetails = initialState, action: Action): OsobaDetails => {
@@ -24,8 +24,8 @@ const osobaDetailsReducer = (state: OsobaDetails = initialState, action: Action)
             const beneficiarySmenky = smenky.filter(smenka => smenka.BeneficiaryId.toString() === action.payload.osobaId);
 
             return {
-                DrawerSmenky: drawerSmenky,
-                BeneficiarySmenky: beneficiarySmenky
+                drawerSmenky: drawerSmenky,
+                beneficiarySmenky: beneficiarySmenky
             };
         }
         default:

@@ -48,8 +48,8 @@ export const OsobaDetails: React.FC = () => {
     });
 
 
-    const smenkyVystavene = useSelector((state: State) => state.osobaDetailsReducer.DrawerSmenky);
-    const smenkyVlastni = useSelector((state: State) => state.osobaDetailsReducer.BeneficiarySmenky);
+    const smenkyVystavene = useSelector((state: State) => state.osobaDetailsReducer.drawerSmenky);
+    const smenkyVlastni = useSelector((state: State) => state.osobaDetailsReducer.beneficiarySmenky);
 
     return (
         <div style={{ height: 450, width: '15%', margin: '5% 0 0 5%', cursor: 'pointer' }}>
