@@ -27,7 +27,7 @@ function App() {
 
   return (
     <Router>
-        <AppBar position="static" color="default">
+        <AppBar data-testid="appBar" position="static" color="default">
           <Tabs
             value={value}
             onChange={handleChange}

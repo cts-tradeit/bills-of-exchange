@@ -5,7 +5,6 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { makeStyles } from "@mui/styles";
-import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -16,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Bill(props) {
   const classes = useStyles();
   return (
-    <Card className={classes.card} sx={{ minWidth: 275 }}>
+    <Card data-testid="bill" className={classes.card} sx={{ minWidth: 275 }}>
       <CardContent>
         <Typography variant="h6" component="div">
           <Grid
@@ -47,11 +46,11 @@ export default function Bill(props) {
         </Typography>
 
         
-        <Link style={{ textDecoration: "none"}} to={"/bill/" + props.id}>
-          <Button size="small" variant="outlined">
+        
+          <Button size="small" to={"/bill/" + props.id} variant="outlined">
             Bill Detail
           </Button>
-        </Link>
+  
       </CardContent>
     </Card>
   );
