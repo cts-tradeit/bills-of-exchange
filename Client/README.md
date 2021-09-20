@@ -1,3 +1,34 @@
+# Spuštění aplikace pro vývoj
+
+```
+yarn
+yarn start
+
+# nebo pres npm:
+# npm install
+# npm run start
+```
+
+Otevře se prohlížeč, aplikace běží na http://localhost:3000
+
+# Testy
+
+```
+yarn test
+# npm run test
+```
+
+# Build aplikace
+
+```
+yarn build
+# npm run build
+```
+
+výsledný build je ve složce `build`
+
+## Původní README:
+
 # Směnky Client
 
 Vaším úkolem je dokončit vytvořit klientskou aplikaci. Pro spouštění použijte zde připravený webpack dev server nebo obdobný nástroj (neřešte BE část klientské aplikace).
@@ -12,14 +43,14 @@ Navigace:
 Detail osoby:
 
 - Vypsat všechny směnky, které daná osoba vystavila
-- Vypsat všechny směnky, které daná osoba právě vlastní (tj. je navrchu řadu)
+- Vypsat všechny směnky, které daná osoba právě vlastní (tj. je první v řadu)
 - Proklik na detail směnky skrze danou směnku
 
 Detail směnky:
 
-- Zobrazit kdo směnku vystsavil a kdo je aktuální vlastník
-- Zobrazit kompletní řad směnky (tj. kdo všechno směnku vlastnil na základě rubopisů) **včetně jmen osob**
-- Proklik na detail osoby skrze jméno osoby
+- Zobrazit směnce jako takové (vystavitel, první vlastník a současný vlastník)
+- Zobrazit kompletní řad směnky (tj. všechny rubopisy jak jdou po sobě) **včetně jmen osob**
+- Proklik na detail soboy skrze zmíněnou osobu
 
 Aplikace by měl být schopná handlovat vyjímky vyhozené API serverem aniž by došlo k jejím pádu.
 
@@ -29,8 +60,8 @@ Na grafickém zpracování nezáleží. Použijte svojí oblíbenou knihovnu, vl
 
 - Použít TypeScript
 - Použít React
-- Pár unit testů v Jestu nebo Mocha
-- Zajistit aby při opuštění stránky (zavření okna) a návratu mohl uživatel pokračovat tam, kde skončil (persist state)
+- Pokrýt kód unit testy
+- Zajistit aby při opuštění a návratu mohl uživatel pokračovat tam, kde skončil
 
 ## Co zde již je
 
