@@ -24,12 +24,12 @@ const HeaderAppBar: React.FC = () => {
                     </Typography>
                     <Button color="inherit" style={{ marginRight: '5%' }}>
                         <Link to='/osoby' style={linkStyle}>
-                            Osoby
+                            Parties
                         </Link>
                     </Button>
                     <Button color="inherit">
                         <Link to='/smenky' style={linkStyle}>
-                            Smenky
+                            Bills
                         </Link>
                     </Button>
                 </Toolbar>
