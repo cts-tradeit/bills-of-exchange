@@ -25,7 +25,6 @@ export default function User(props) {
             {props.title}
           </Typography>
         ) : null}
-
         <Typography variant="h6" component="div">
           <AssignmentIndIcon color="primary" fontSize="large" /> 
            {props.name}
